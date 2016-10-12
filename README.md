@@ -4,7 +4,7 @@
 
 Easy way to run the project.
 
-1 - hHave npm installed
+1 - Have npm installed
 - Linux - http://blog.teamtreehouse.com/install-node-js-npm-linux
 - Mac - http://blog.teamtreehouse.com/install-node-js-npm-mac
 - Windows - http://blog.teamtreehouse.com/install-node-js-npm-windows
