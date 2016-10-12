@@ -1,6 +1,6 @@
-## weather_forecast
+# weather_forecast
 
-#Weather forecast project using angularJs.
+##Weather forecast project using angularJs.
 
 Easy way to run the project.
 
