@@ -4,10 +4,10 @@
 
 Easy way to run the project.
 
-1 - have npm installed \n
-linux - http://blog.teamtreehouse.com/install-node-js-npm-linux \n
-mac - http://blog.teamtreehouse.com/install-node-js-npm-mac \n
-windows - http://blog.teamtreehouse.com/install-node-js-npm-windows \n
+1 - have npm installed
+- linux - http://blog.teamtreehouse.com/install-node-js-npm-linux
+- mac - http://blog.teamtreehouse.com/install-node-js-npm-mac
+- windows - http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 2 - clone the project and go to the weatherforecast file.
 
