@@ -1,6 +1,6 @@
-# weather_forecast
+# Weather forecast project using angularJs.
 
-##Weather forecast project using angularJs.
+This project is develop using the google API, region Autocomplete, and the Yahoo API, weatherforecast requests.
 
 Easy way to run the project.
 
