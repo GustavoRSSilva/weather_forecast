@@ -1,0 +1,33 @@
+<div ng-controller="homepageCtrl">
+<div id="main-container">
+	<h1>{{labelTitle.title}}</h1>
+	<input id="region-input" type="text" ng-model="input.region" autocomplete="off" data-country="pt" ng-init="initialize()"><br>
+	<div id="button-container">
+		<button id="search-button" ng-click="getWeatherForecast()">Search</button>
+	</div>
+</div>
+
+
+<div id="main-result-container">
+	<label id="table-title"><b>{{forecastTitle}}</b></label>
+	<table ng-if="forecast" style="width:100%">
+
+		<tr>
+	    	<th>Date</th>
+	    	<th>Day</th>
+	    	<th>High</th>
+			<th>low</th>
+			<th>Expectation</th>
+		</tr>
+			<tr ng-repeat="day in forecast|limitTo:5">
+				<td>{{day.date}}</td>
+				<td>{{day.day}}</td>
+				<td>{{day.high}}</td>
+				<td>{{day.low}}</td>
+				<td>{{day.text}}</td>
+			</tr>
+
+	</table>
+	<p  ng-if="forecast.length == 0"  ng-bind-html="errorMessage|sanitize"></p>
+</div>
+</div>
