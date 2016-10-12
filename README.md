@@ -20,4 +20,4 @@ Easy way to run the project.
 6- grunt web_server
 
 By default it will open on the on the port 8000.
-Once every step is completed, go to your web browser (maek sure javascript is enabled) and go to http://localhost:8000/index.html
+Once every step is completed, on your web browser, make sure javascript is enabled, and go to http://localhost:8000/index.html
