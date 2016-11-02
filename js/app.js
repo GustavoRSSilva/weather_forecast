@@ -1,22 +1,24 @@
+/* jshint strict:false */
+/* global angular */
 
-var app = angular.module("wfApp", ["ngRoute","homepageCtrlModule"]);
+var app = angular.module('wfApp', ['ngRoute', 'homepageCtrlModule']);
 
-app.config(function($routeProvider){
+app.config(function ($routeProvider) {
 
-	$routeProvider
+    $routeProvider
 
-	.when("/", {
-		templateUrl: "views/homepage.html",
-		controller: "homepageCtrl"
-	})
+        .when('/', {
+            templateUrl: 'views/homepage.html',
+            controller: "homepageCtrl"
+        })
 
-	.otherwise({
-		redirectTo: "/"
-	});
-})
+        .otherwise({
+            redirectTo: "/"
+        });
+});
 
-app.filter("sanitize", ['$sce', function($sce) {
-  return function(htmlCode){
-    return $sce.trustAsHtml(htmlCode);
-  }
+app.filter('sanitize', ['$sce', function ($sce) {
+    return function (htmlCode) {
+        return $sce.trustAsHtml(htmlCode);
+    };
 }]);
